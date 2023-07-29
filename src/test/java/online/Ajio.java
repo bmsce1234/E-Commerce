@@ -10,6 +10,7 @@ public class Ajio {
   public void ajioTest() 
   {
 	  WebDriver driver= new FirefoxDriver();
+	 
 	  driver.get("https://www.ajio.com/");
 	  driver.manage().window().maximize();
 	  driver.quit();
