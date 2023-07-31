@@ -13,7 +13,7 @@ public class Ebay {
 	  WebDriver driver= new ChromeDriver();
 	  driver.get("https://www.ebay.com/");
 	  driver.manage().window().maximize();
-	  driver.quit();
+	  driver.close();
 	  
 	  
 	  
