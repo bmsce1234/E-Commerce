@@ -11,9 +11,9 @@ public class TataClick {
   {
 	  
 	  WebDriver driver= new ChromeDriver();
-	  driver.get("https://www.ebay.com/");
+	  driver.get("https://www.tatacliq.com/");
 	  driver.manage().window().maximize();
-	  driver.close();
+	  driver.quit();
 	  
 	  
 	  
