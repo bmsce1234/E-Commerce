@@ -6,6 +6,7 @@
       <class name="online.Ajio"/>
       <class name="online.Amazon"/>
       <class name="online.Flipkart"/>
+       <class name="online.TataClick"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
