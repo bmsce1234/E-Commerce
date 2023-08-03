@@ -15,7 +15,7 @@ public class TataClick {
 	  Reporter.log("opening Tataclick", true);
 	  driver.get("https://www.tatacliq.com/");
 	  driver.manage().window().maximize();
-	  driver.quit();//close all tabs
+	  driver.quit();
 	  
 	  
 	  
