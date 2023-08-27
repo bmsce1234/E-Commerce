@@ -15,7 +15,7 @@ public class Flipkart {
 	  Reporter.log("opening Flipkart", true);
 	  driver.get("https://www.flipkart.com/");
 	  driver.manage().window().maximize();
-	//  driver.quit();
+	driver.quit();
 	  
 	  
   }
