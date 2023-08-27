@@ -7,25 +7,16 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Ajio {
-  @Test
-  public void ajioTest() 
+  @Test(groups={"Regression"})
+  public void ajioTest() throws InterruptedException 
   {
-	  WebDriver driver= new FirefoxDriver();
+	  WebDriver driver= new ChromeDriver();
+	  Thread.sleep(100);
 	  Reporter.log("opening Ajio", true);
+	 
 	  driver.get("https://www.ajio.com/");
 	  driver.manage().window().maximize();
-	  driver.quit();
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+	//  driver.quit();	  
 	  
   }
 }

@@ -7,7 +7,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class TataClick {
-  @Test
+  @Test(groups= {"Regression"})
   public void tataclickTest() 
   {
 	  
@@ -15,7 +15,7 @@ public class TataClick {
 	  Reporter.log("opening Tataclick", true);
 	  driver.get("https://www.tatacliq.com/");
 	  driver.manage().window().maximize();
-	  driver.quit();
+	 // driver.quit();
 	  
 	  
 	  

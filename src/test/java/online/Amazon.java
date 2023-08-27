@@ -7,7 +7,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Amazon {
-  @Test
+  @Test(groups= {"Sanity"})
   public void amazonTest() 
   {
 	  
@@ -15,7 +15,16 @@ public class Amazon {
 	  Reporter.log("opening Amazon", true);
 	  driver.get("https://www.amazon.in");
 	  driver.manage().window().maximize();
-	  driver.quit();
+	  //driver.quit();
+	  
+	  
+	  
+  }
+  @Test(groups= {"Sanity"})
+  public void print() 
+  {
+	  
+	 System.out.println("print amazon");
 	  
 	  
 	  

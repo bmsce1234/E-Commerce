@@ -7,17 +7,15 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Flipkart {
-  @Test
-  public void flipkartTest() 
+  @Test(groups= {"Sanity"})
+  public void flipkartTest() throws InterruptedException 
   {
 	  
 	  WebDriver driver= new FirefoxDriver();
 	  Reporter.log("opening Flipkart", true);
 	  driver.get("https://www.flipkart.com/");
 	  driver.manage().window().maximize();
-	  driver.quit();
-	  
-	  
+	//  driver.quit();
 	  
 	  
   }

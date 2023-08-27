@@ -7,7 +7,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Ebay {
-  @Test
+  @Test(groups= {"Sanity"})
   public void ebayTest() 
   {
 	  
@@ -16,7 +16,7 @@ public class Ebay {
 	  driver.get("https://www.ebay.com/");
 	  Reporter.log("opening Ebay", true);
 	  driver.manage().window().maximize();
-	  driver.close();
+	 // driver.quit();
 	  
 	  
 	  
