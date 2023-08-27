@@ -12,7 +12,7 @@ public class Ajio {
   {
 	  WebDriver driver= new ChromeDriver();
 	  Thread.sleep(100);
-	  Reporter.log("opening Ajio", true);
+	  Reporter.log("opening ajio", true);
 	 
 	  driver.get("https://www.ajio.com/");
 	  driver.manage().window().maximize();
